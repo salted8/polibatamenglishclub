@@ -1,0 +1,402 @@
+/* ============== TAG =============== */
+
+/* ============== ID ================ */
+
+/* ============ CLASS =============== */
+/* Banner */
+.cabel {
+    position: relative;
+    display: block;
+    top: 326px;
+    left: -7938%;
+}
+
+.carousel-first {
+    margin-top: 60px;
+    border: 15px solid black;
+    border-radius: 20px;
+    height: 265px;
+}
+
+.carousel-first-item {
+    height: 75vh;
+    min-height: 30px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.pecphoto1,
+.pecphoto2,
+.pecphoto2 {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item {
+    height: 235px;
+}
+
+.git {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 200px;
+
+}
+
+.git-btn {
+    border-radius: 20px;
+    margin-top: 150px;
+    font-size: 25px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.git-btn a {
+    padding: 5px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+
+.git-btn:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+/*news*/
+.news {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.news h1 {
+    margin-bottom: 37px;
+    font-weight: 700;
+    font-size: 50px;
+    color: #11999E;
+}
+
+.gbr {
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
+
+.block {
+    background-color: rgb(243, 243, 243);
+    margin-bottom: 35px;
+    transition: 0.5s;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 3px 20px rgba(150, 228, 248, 0.3);
+}
+
+.block p,
+.block h2 {
+    width: 300px;
+}
+
+.block p {
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.block h2 {
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+hr.new1 {
+    margin: 0 auto;
+    border-top: 3px solid #11999E;
+    width: 20px;
+    background-color: rgb(246, 246, 246);
+}
+
+.block:hover hr {
+    width: 120px;
+    transition: 0.5s;
+}
+
+.block img {
+    margin: auto;
+    width: 295px;
+    height: 200px;
+    display: block;
+    object-fit: scale-down;
+    transition: 0.3s;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    opacity: .8;
+    border-bottom: 1px solid #11999E;
+}
+
+
+
+.block a {
+    text-decoration: none;
+    color: #11999E;
+}
+
+.block a:hover {
+    width: 10px;
+    text-decoration: none;
+    color: rgb(12, 87, 90);
+}
+
+.block:hover label {
+    color: #11999E;
+}
+
+.function {
+    background-image: url(../img/background/footer_bg.png);
+}
+
+.function h2 {
+    margin: 100px auto 50px auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    color: #11999E;
+}
+
+.function h3 {
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.function-caption {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.function-caption i {
+    color: #11999E;
+}
+
+/* people say */
+.ppl-say h2 {
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    color: #11999E;
+
+}
+
+.ppl-say p {
+    margin: auto;
+    line-height: 30px;
+    font-size: 14px;
+    font-style: italic;
+    color: #000;
+    text-align: center;
+}
+
+.ppl-say .identity {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ppl-say .identity h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ppl-say .identity label {
+    font-size: 14px;
+}
+
+/* want to ask */
+
+.haveAquestion {
+    background-color: rgba(32, 50, 73, 0.938);
+    border-radius: 15px;
+}
+
+.wantToask {
+    color: aliceblue;
+}
+
+.wantToask-btn {
+    margin: auto;
+}
+
+@media (min-width:1182px) {
+    /* ============== TAG =============== */
+
+    /* ============== ID ================ */
+
+    /* ============ CLASS =============== */
+    /* banner */
+    .cabel {
+        top: 355px;
+        left: -291%;
+    }
+
+    .carousel-first {
+        margin-top: -10px;
+        border: 25px solid black;
+        height: 649.9px;
+    }
+
+    .carousel-first-item {
+        height: 600px;
+    }
+
+    .git {
+        margin-bottom: 50px;
+    }
+
+    .git-btn {
+        margin-top: -20px;
+    }
+
+    /*news*/
+    .news {
+        padding-top: 100px;
+    }
+
+    .news h1 {
+        margin-bottom: 100px;
+    }
+
+    .gbr {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .block {
+        width: 350px;
+        height: 392px;
+        border-radius: 5px 5px 5px 5px;
+    }
+
+    .block p,
+    .block h2 {
+        margin: 10px 20px 10px 20px;
+        width: 310px;
+    }
+
+    .block p {
+        line-height: 20px;
+        font-weight: 200px;
+    }
+
+    .block h2 {
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .block img {
+        width: 346px;
+        height: 190px;
+        display: block;
+        transition: 0.3s;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    .block img:hover {
+        object-fit: cover;
+    }
+
+    .block:hover {
+        transition: 0.5s;
+        box-shadow: 0 3px 20px rgba(150, 228, 248, 0.8);
+    }
+
+    /* function */
+    .function {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        text-align: center;
+        margin-bottom: 100px;
+        margin: auto;
+    }
+
+    .function h3 {
+        font-size: 30px;
+    }
+
+    /* people say */
+    .ppl-say {
+        text-align: center;
+        margin-bottom: 100px;
+        margin: auto;
+        padding-bottom: 100px;
+    }
+
+    .ppl-say .carousel-2 {}
+
+    .people {
+        justify-content: center;
+        display: flex;
+        margin: auto;
+        margin-top: 48px;
+        width: 970px;
+        text-align: left;
+    }
+
+    .identity {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .ppl-say label {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .ppl-say h2 {
+        padding-top: 100px;
+        line-height: 65px;
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .ppl-say h5 {
+        color: rgb(12, 66, 68);
+    }
+
+    .ppl-say p {
+        margin: auto;
+        width: 970px;
+        line-height: 30px;
+        font-size: 20px;
+        font-style: italic;
+        margin-top: 50px;
+        color: #000;
+    }
+
+    /* want to ask */
+
+    .haveAquestion {
+        margin: 100px;
+
+    }
+
+    .wantToask {
+        color: aliceblue;
+    }
+
+    .wantToask-btn {
+        margin: auto;
+    }
+}

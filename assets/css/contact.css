@@ -1,0 +1,86 @@
+/* ============= TAG ============ */
+iframe {
+    width: 100%;
+    height: 450px;
+}
+
+/* ============= ID ============= */
+
+/* ============= CLASS ========== */
+
+/* jumbotron */
+.jumbotron {
+    text-shadow: 1px 1px 5px black;
+    color: white;
+}
+
+
+.parallax {
+    background-image: url("../img/background/banner.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron h1 {
+    padding: 73.5% 0;
+    font-size: 60px;
+    margin: auto;
+    text-align: center
+}
+
+/* contact */
+.contact-title {
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    color: #11999E;
+}
+
+.git {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.git h2 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.git .media {
+    padding-bottom: 20px;
+}
+
+@media (min-width:1182px) {
+    /* ============= TAG ============ */
+
+    /* ============= ID ============= */
+
+    /* ============= CLASS ========== */
+    /* jumbotron */
+    .jumbotron h1 {
+        padding: 22% 0;
+        font-size: 100px;
+        margin: auto;
+        text-align: center
+    }
+
+    /* contact */
+    .contact-title {
+        font-size: 50px;
+    }
+
+    .git {
+        margin-top: 100px;
+        display: flex;
+    }
+
+    .git h2 {
+        text-align: left;
+        margin-bottom: 15px;
+    }
+
+}

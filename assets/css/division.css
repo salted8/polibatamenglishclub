@@ -1,0 +1,129 @@
+/*================ Tag ============= */
+h1 {
+    color: #11999E;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: #11999E;
+    font-size: 50px;
+}
+
+/*================= ID =============  */
+
+/* ================ CLASS ==========  */
+.arrow {
+    font-size: 80px;
+    text-align: center;
+    animation: updown 1.5s linear infinite;
+}
+
+.arrow a {
+    text-decoration: none;
+    color: #11999E;
+
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+.division-contain {
+    padding-top: 200px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+
+
+.main img {
+    width: 300px;
+    justify-content: center;
+
+}
+
+.division {
+    padding-bottom: 100px;
+}
+
+.division-description {
+    padding-top: 150px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+.division-description p {
+    font-size: 14px;
+    line-height: 30px;
+    color: rgb(116, 116, 116);
+}
+
+.division-jobdesk {
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.jobdesk .card {
+    margin: auto;
+}
+
+
+
+.jobdesk .card p {
+    margin: auto auto;
+}
+
+
+@media (min-width:1182px) {
+    h1 {
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    h2 {
+        margin-bottom: 50px;
+    }
+
+    .main {
+        background-image: url(../img/background/undraw_interview_rmcf.svg);
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position-y: 1350px;
+        background-position-x: -300px;
+    }
+
+    .division-contain {
+        padding-top: 150px;
+        padding-bottom: 0px;
+    }
+
+    .main img {
+        margin-top: -60px;
+        width: 800px;
+        margin-bottom: 50px;
+    }
+
+    .division-description p {
+        font-size: 20px;
+        line-height: 50px;
+    }
+
+    .jobdesk .card:hover {
+        transform: scale(1.2);
+        transition: ease-in-out 0.5s;
+    }
+}

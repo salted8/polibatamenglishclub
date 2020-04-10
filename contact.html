@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="icon" href="assets/img/pec.ico">
+    <!-- font CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+    <title>Polibatam English Club</title>
+
+</head>
+
+<body onload="myLoading()">
+    <!-- preloader -->
+    <div class="loader ">
+        <div class="lds-dual-ring">
+        </div>
+    </div>
+    <!-- preloader end -->
+
+    <!-- progress bar start -->
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div>
+    <!-- progress bar end -->
+
+    <!-- to the top button -->
+    <div class="to-top hidden">
+        <a href="#"><i class="fas fa-chevron-up"></i></a>
+    </div>
+    <!-- to the top btn -->
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class=" container">
+            <a class="navbar-brand" href="#"><img src="assets/img/logo/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item ">
+                        <a class="current nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">Profile</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Class</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="debate.html">Debate</a>
+                            <a class="dropdown-item" href="story.html">Story Telling</a>
+                            <a class="dropdown-item" href="speech.html">Speach</a>
+                            <a class="dropdown-item" href="nc.html">News Casting</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Division</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="core.html">Core</a>
+                            <a class="dropdown-item" href="infocom.html">Information and Communication</a>
+                            <a class="dropdown-item" href="hri.html">Human Resource and Internal Affairs</a>
+                            <a class="dropdown-item" href="engdep.html">English Departement</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog/blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="contact-btn btn nav-link btn-info" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--  Navbar End -->
+
+
+
+    <!-- =============== Content START ============== -->
+    <div class="jumbotron parallax">
+        <div class="container">
+            <h1>Stay Awesome!</h1>
+        </div>
+    </div>
+    <div class="header">
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h2 class="contact-title">Contact Us</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.0578708495!2d104.04625331475376!3d1.118672999184013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d98921856ddfab%3A0xf9d9fc65ca00c9d!2sPoliteknik%20Negeri%20Batam!5e0!3m2!1sen!2sid!4v1585101748657!5m2!1sen!2sid"
+                frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+            </iframe>
+            <div class="git col-12">
+                <div class="col-lg-8">
+                    <h2>Get in touch</h2>
+                    <form action="./assets/php/contact_process.php" method="post" id="contactForm" autocomplete="off">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input class="form-control valid" name="name" id="name" type="text"
+                                        placeholder='Enter your name' required onkeypress="return harusHuruf(event)">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input class="form-control valid" name="email" id="email" type="email"
+                                        placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <input class="form-control" name="subject" id="subject" type="text"
+                                        placeholder="Enter Subject" required>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
+                                        placeholder=" Enter Message" style="resize: none;" required></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3 mb-5">
+                            <button type="submit" class="btn btn-info" onclick="">Send</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-3 offset-lg-1 pt-5">
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="ti-home"></i></span>
+                        <div class="media-body">
+                            <h3>Politeknik Negeri Batam.</h3>
+                            <p>Jl. Parkway Batam Center,
+                                Batam, 21964</p>
+                        </div>
+                    </div>
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+                        <div class="media-body">
+                            <h3>+64 896 7042 1212</h3>
+                            <p>Mon to Fri 5pm to 10pm</p>
+                        </div>
+                    </div>
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"></span>
+                        <div class="media-body">
+                            <h6><i class="fas fa-envelope"></i> pecallgeneration@gmail.com</h6>
+                            <p>Send us your query anytime!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =============== Content END  ============== -->
+
+    <!-- Ending -->
+    <footer>
+        <div class="ending container">
+            <hr>
+            <div class="akhir">
+                <div class="direct">
+                    <div class="akhir-link">
+                        <img src="assets/img/logo/logo.png" alt="peclogo">
+                        <p>Ruang UKM Lantai 1, <br> Gedung Kampus Politeknik Negeri Batam, <br> Jl. Parkway Batam
+                            Center, <br>
+                            Batam - Kepulauan Riau
+                            Indonesia</p>
+                        <p><i class="fas fa-envelope"></i> pecallgeneration@gmail.com</p>
+                    </div>
+                    <div class="akhir-link">
+                        <h4>Quick Links</h4>
+                        <a href="profile.html">Profile</a><br>
+                        <a href="blog/blog.html">Blog</a><br>
+                        <a href="https://www.polibatam.ac.id/"> Polibatam</a><br>
+                    </div>
+                    <div class="akhir-link">
+                        <h4>Support</h4>
+                        <a href="contact.html">FAQ's</a><br>
+                        <a href="contact.html">Report a Bug</a><br>
+                        <a href="contact.html">Contact</a><br>
+                    </div>
+                    <div class="akhir-link">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Newsletter</h4>
+                                <div class="footer-pera footer-pera2">
+                                    <p>Get more information about us.</p>
+                                </div>
+                                <!-- Form -->
+                                <div class="footer-form">
+
+                                    <form target="newsletter-process.php" action="post" method="get"
+                                        class="subscribe_form" novalidate="true">
+                                        <input type="email" name="EMAIL" id="newsletter-form-email"
+                                            placeholder=" Email Address " required>
+                                        <button class="btn btn-info" type="submit" name="submit"><i
+                                                class="fas fa-angle-right"></i></button>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="icons">
+                    <hr>
+                    <label for=""><strong>Follow us</strong> on Social Media</label>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/PEC.Fans.Page/" class="insta" target="_blank"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/polibatamenglishclub/" class="insta" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCEYbPsA5Q7cSVqGunELuQXA/featured" class="yt"
+                            target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright Start -->
+        <div class="cpr">
+            <label>&copy;2020 Polibatam English Club | All right reserved. </label>
+        </div>
+        <!-- Copyright End -->
+    </footer>
+
+    <!-- this javascript -->
+    <script src="./assets/js/script.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+</body>
+
+
+
+
+</html>

@@ -1,0 +1,443 @@
+/*=================================== Tag ================================== */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* preloader start */
+.loader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgb(246, 246, 246);
+    z-index: 9999999;
+    transition: ease-in-out 1s;
+}
+
+.lds-dual-ring {
+    background-color: white;
+    background-image: url(../img/logo/logo.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 70px;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    display: block;
+    margin: 250px auto;
+}
+
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    animation: lds-dual-ring 1.5s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+        border-color: #ad533d rgb(227, 233, 236) rgb(37, 134, 138) rgb(227, 233, 236);
+    }
+
+    50% {
+        transform: rotate(180deg);
+        border-color: #e78269 rgb(227, 233, 236) rgb(47, 202, 207) rgb(227, 233, 236);
+    }
+
+    100% {
+        transform: rotate(360deg);
+        border-color: #ad533d rgb(227, 233, 236) rgb(37, 134, 138) rgb(227, 233, 236);
+    }
+}
+
+.hidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+/* preloader end */
+/* to the top start */
+.to-top {
+    background-color: rgb(17, 153, 158);
+    box-shadow: 1px 1px 3px rgb(63, 63, 63);
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    justify-content: center;
+    z-index: 10000;
+}
+
+.to-top a {
+    display: block;
+    font-size: 25px;
+    color: white;
+    margin: auto auto;
+    text-align: center;
+}
+
+.to-top:active {
+    background-color: rgb(15, 127, 131);
+}
+
+/* to the top end */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+footer {
+    background-color: rgb(240, 240, 240);
+    background-image: url(../img/background/footer_bg.png);
+}
+
+hr {
+    border: 0;
+    background-color: #11999E;
+    width: 100%;
+    height: 5px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-weight: 200px;
+    font-size: 14px;
+}
+
+/* unserve */
+.unserve {
+    padding-top: 50%;
+    padding-bottom: 50%;
+    text-align: center;
+    color: #11999E;
+
+}
+
+.unserve h1 {
+    line-height: 50px;
+    font-size: 25px;
+}
+
+/* Progress bar */
+.progress-container {
+    margin-top: 60px;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 6px;
+    background: rgba(30, 113, 116, 0.116);
+}
+
+.progress-bar {
+    height: 6px;
+    background: #11999E;
+    width: 0%;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand img {
+    width: 60px;
+}
+
+.navbar .nav-item .contact-btn {
+    border-radius: 10px;
+    background-color: #11999E;
+    color: white;
+}
+
+.navbar .nav-item .contact-btn:hover {
+    transition: ease-in-out 0.3s;
+    background-color: rgb(50, 182, 187);
+    color: white;
+}
+
+.navbar-nav {
+    text-align: right;
+}
+
+.nav-item {
+    color: rgb(79, 94, 182);
+}
+
+.navbar a {
+    color: rgb(134, 134, 134);
+}
+
+.navbar a:hover {
+    color: #11999E;
+}
+
+/* ===================== */
+/* footer */
+.ending {
+    line-height: 2;
+    padding-top: 0px;
+    margin-top: -20px;
+}
+
+.ending img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.ending input {
+    max-width: 350px;
+}
+
+.akhir {
+    color: rgb(0, 0, 0);
+    display: grid;
+    width: 100%;
+    margin: auto;
+}
+
+.akhir .direct .akhir-link {
+    padding-bottom: 20px;
+    color: #000
+}
+
+.ending h4 {
+    color: #11999E;
+    font-size: 20px;
+}
+
+.ending a {
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+    font-size: 14px;
+
+}
+
+.ending .akhir-link a:hover {
+    text-decoration: none;
+    padding-left: 5px;
+    color: #11999E;
+}
+
+
+/* sosmed */
+.icons {
+    text-align: center;
+}
+
+.icons img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.icons img:hover {
+    transform: scale(1.1);
+}
+
+.icons hr {
+    width: 250px;
+    background-color: rgb(190, 190, 190);
+    margin: 10px auto;
+
+}
+
+/* sosmed */
+.icons {
+    text-align: center;
+}
+
+.icons i {
+    font-size: 30px;
+    margin: 10px;
+    margin-bottom: 20px;
+    color: #1D2938;
+}
+
+.icons i:hover {
+    transform: scale(1.2);
+    transition: ease-in-out 0.5s;
+    color: #11999E;
+}
+
+.icons hr {
+    width: 250px;
+    background-color: rgb(190, 190, 190);
+    margin-bottom: 10px;
+}
+
+
+/* copyright */
+.cpr {
+    background-color: #11999E;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    padding: 8px;
+}
+
+/* ==========================================| DESKTOP |============================================================ */
+
+@media (min-width:1182px) {
+
+    /* preloading */
+    .loader {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(246, 246, 246) url('http://garudapr.in/wp-content/uploads/2017/12/loader.gif') no-repeat center center;
+        z-index: 9999999;
+    }
+
+    .lds-dual-ring {
+        background-color: white;
+        background-image: url(../img/logo/logo-pec-besar.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: 70px;
+        display: inline-block;
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+        display: block;
+        margin: 18% auto;
+    }
+
+    .lds-dual-ring:after {
+        content: " ";
+        display: block;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        border: 6px solid #fff;
+        animation: lds-dual-ring 1.5s linear infinite;
+    }
+
+    /* to the top start */
+
+    .to-top:hover {
+        background-color: rgb(60, 178, 182);
+        box-shadow: 0px 0px 5px rgb(153, 220, 223);
+    }
+
+    .to-top:active {
+        background-color: rgb(28, 124, 128);
+        box-shadow: 0px 0px 2px rgb(153, 220, 223);
+    }
+
+    /* to the top end */
+    /* unserve */
+    .unserve {
+        padding-top: 20%;
+        padding-bottom: 20%;
+        text-align: center;
+        color: #11999E;
+    }
+
+    .unserve h1 {
+        line-height: 75px;
+        font-size: 50px;
+    }
+
+    /*====================================== CLASS ================================== */
+    /* Navbar */
+    .navbar {
+        position: fixed;
+        margin: auto;
+        box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar .nav-item {
+        margin-left: 30px;
+    }
+
+    .navbar .nav-item .contact-btn {
+        margin-left: 150px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+        background-color: #11999E;
+        color: white;
+    }
+
+    .navbar .nav-item .contact-btn:hover {
+        background-color: rgb(55, 183, 187);
+        color: white;
+    }
+
+    /* ===================== */
+    /* footer */
+
+
+    .akhir {}
+
+    .akhir .direct {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+
+    }
+
+    .akhir .akhir-link {
+        width: 250px;
+    }
+
+    .akhir .akhir-link h4 {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .akhir .akhir-link p {
+        font-size: 14px;
+        margin-top: 25px;
+    }
+
+    .ending .akhir .direct a {
+        text-decoration: none;
+        color: rgb(61, 61, 61);
+        text-align: left;
+    }
+
+    .ending .akhir .direct a:hover {
+        transition: ease-in-out 0.3s;
+        color: #11999E;
+    }
+
+    .ending input {
+        width: 200px;
+    }
+
+    /* sosmed */
+    .icons {
+        border: none;
+
+    }
+
+
+    /* copyright */
+    .cpr {
+        padding-bottom: 0px;
+        font-size: 14px;
+    }
+
+}

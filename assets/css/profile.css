@@ -1,0 +1,468 @@
+/* ================ TAG ================= */
+h1,
+h2 {
+    color: #11999E;
+    font-weight: 700;
+}
+
+/* =============== ID =================== */
+
+/* =============== CLASS ================ */
+/* banner */
+.banner {
+    background-image: url(../img/background/world.png);
+    background-position: center;
+    background-size: 350px 250px;
+    background-repeat: no-repeat;
+}
+
+.banner-caption {
+    font-size: 50px;
+    padding-top: 310px;
+    padding-bottom: 310px;
+    text-align: center;
+}
+
+/* what pec */
+.what-pec {
+    padding-top: 140px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.what-pec h2 {
+    font-size: 50px;
+}
+
+.what-pec img {
+    width: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.what-pec p {
+    font-size: 14px;
+}
+
+/* our Vision */
+.vision {
+    text-align: center;
+}
+
+.vision h2 {
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.vision p {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+/* our Mision */
+.mission {}
+
+
+.mission-isi {}
+
+.kantong {
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.kantong:hover {
+    box-shadow: rgba(17, 153, 158, 0.15) 0px 10px 30px 0px;
+    transition: all 0.4s ease-out 0s;
+
+}
+
+.mission-list {}
+
+.mission h2 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.mission-isi .mission-list i {
+    color: #11999E;
+    font-size: 50px;
+
+}
+
+.mission p {
+    max-width: 200px;
+    text-align: justify;
+    margin-left: auto;
+}
+
+
+/* Structure */
+.structure {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.structure .card {
+    border: none;
+}
+
+.pec-pembina,
+.pec-dpa,
+.coor {
+    text-align: center;
+}
+
+.bagian {
+    margin-top: 150px;
+}
+
+.pec-organizer .bagian {}
+
+.pec-organizer {
+    margin-top: 50px;
+}
+
+.pec-engdep {
+    margin-top: 50px;
+}
+
+.pec-engdep .coor {
+    margin-bottom: 150px;
+}
+
+.pec-engdep .bagian {
+    margin-bottom: 150px;
+}
+
+.member {
+    padding: 50px 0;
+}
+
+.structure img {
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.structure h2 {
+    padding: 50px 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+.structure h3 {
+    text-align: center;
+    font-size: 40px;
+    margin: 150px auto;
+    color: #11999E;
+    font-weight: bold;
+}
+
+.structure h4 {
+    color: #11999E;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.structure h5 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.structure .pec-engdep .bagian {
+    margin-top: 10px;
+}
+
+.structure p {
+    font-size: 15px;
+}
+
+/* ================ */
+/* suport */
+
+.support {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    line-height: 2;
+    text-align: center;
+    background-image: url(../img/background/footer_bg.png);
+}
+
+.support h2 {
+    font-size: 50px;
+}
+
+.support h3 {
+    color: #11999E;
+    font-size: 25px;
+    margin-top: 60px;
+}
+
+.support p {
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.support img {
+    width: 50%;
+    margin-top: 50px;
+}
+
+@media (min-width:1182px) {
+    /* ============ TAG ===================== */
+
+    /* =============== ID =================== */
+
+    /* =============== CLASS ================ */
+    /* banner */
+    .banner {
+        background-size: 1300px 900px;
+    }
+
+    .banner-caption h1:hover {
+        transform: scale(1.2);
+        transition: all 1s ease-out;
+        color: rgb(45, 192, 197);
+    }
+
+    .banner-caption h1 {
+        font-size: 100px;
+    }
+
+    /* what pec */
+    .what-pec {
+        padding-top: 100px;
+    }
+
+    .what-pec img {
+        width: 500px;
+    }
+
+    .what-pec p {
+        color: rgb(116, 116, 116);
+        line-height: 65px;
+        font-size: 25px;
+    }
+
+    /* vision */
+    .vision {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .vision-isi {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .vision h2 {
+        padding-top: 50px;
+        font-size: 60px;
+        font-weight: 700;
+        font-size: 70px;
+    }
+
+    .vision p {
+        color: rgb(116, 116, 116);
+        line-height: 65px;
+        font-size: 25px;
+    }
+
+
+    /* Mission */
+    .mission {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .mission .container h2 {
+        color: #11999E;
+        font-size: 70px;
+        font-weight: 700;
+    }
+
+    .mission-isi {
+        margin: auto;
+
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .kantong {
+        border: 1px solid rgb(231, 231, 231);
+        border-radius: 10px;
+        padding: 30px;
+        justify-content: right;
+    }
+
+    .kantong:hover {
+        box-shadow: rgba(17, 153, 158, 0.15) 0px 10px 30px 0px;
+        transition: all 0.4s ease-out 0s;
+
+    }
+
+    .mission-isi .mission-list i {
+        color: #11999E;
+        font-size: 100px;
+
+    }
+
+    .mission-list {
+        display: flex;
+        width: 40%;
+        margin-bottom: 30px;
+    }
+
+    .mission-list .kantong p {
+        max-width: 100%;
+        margin-left: auto;
+        width: 70%;
+        text-align: left;
+        font-size: 16px;
+        line-height: 34px;
+        color: rgb(116, 116, 116);
+    }
+
+    .mission h2 {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        line-height: 65px;
+        font-weight: 700;
+    }
+
+
+    /* Structure */
+    .structure {
+        padding-top: 100px;
+        text-align: center;
+    }
+
+    .pec-pembina {
+        text-align: center;
+        margin: 100px auto;
+    }
+
+    .pec-pembina p {
+        margin: auto;
+    }
+
+    .pec-dpa {
+        margin: 100px auto;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .pec-organizer {
+        margin-top: 200px;
+    }
+
+    .bagian {
+        margin-top: 100px;
+    }
+
+    .pec-engdep {
+        margin-top: 100px;
+    }
+
+    .coor {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+
+    .member {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .structure img {
+        width: 300px;
+    }
+
+    .structure h2 {
+        padding: 50px 0;
+        text-align: center;
+        font-size: 70px;
+    }
+
+    .structure h3 {
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 50px;
+        color: #11999E;
+        font-weight: bold;
+    }
+
+    .structure h4 {
+        margin-top: 200px;
+        color: #11999E;
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .structure .pec-engdep h4 {
+        margin-top: 200px;
+        font-size: 45px;
+    }
+
+    .structure h5 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .structure p {
+        font-size: 20px;
+        width: 300px;
+    }
+
+    /* suport */
+    .support {
+        padding: 100px;
+    }
+
+    .support-isi {
+        margin-top: 50px;
+        display: flex;
+    }
+
+    .support h2 {
+        font-size: 50px;
+        color: #11999E;
+        font-weight: bolder;
+    }
+
+    .support h3 {
+        margin-top: 0px;
+        text-align: left;
+        font-size: 30px;
+    }
+
+    .support p {
+        font-size: 20px;
+        color: rgb(98, 98, 98);
+    }
+
+    .support img {
+        width: 200px;
+        height: 200px;
+        margin-right: 50px;
+        margin-top: 0px;
+    }
+
+}
